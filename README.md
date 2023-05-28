@@ -1,6 +1,6 @@
 # SparkRabbitMqConnector
 
-##RabbitMQ-Receiver is a library that allows the user to read data with Apache Spark Streaming from RabbitMQ.
+## RabbitMQ-Receiver is a library that allows the user to read data with Apache Spark Streaming from RabbitMQ.
 
 
 This code demonstrates how to read data from a RabbitMQ stream using Spark's RabbitMQ connector. The `SparkConf` object is used to set the configuration parameters for the connection details, the exchange, and the queue. The `StreamingContext` is used to create the Spark streaming context with a batch interval of 1 second. 
